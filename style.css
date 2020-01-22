@@ -17,6 +17,7 @@ html{
     text-rendering: optimizeLegibility;
     color:#e67e22;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 /*-------------------COMMON-------------------*/
@@ -130,5 +131,86 @@ label{
     
 }
 
+/*-----------------ADMIN-PAGE---------------------*/
+
+.header-main{
+    width:100%;
+    height: 180px;
+    background-color: beige;
+    
+}
+
+.row h2{
+    text-align: center;
+    margin:30px;
+}
 
 
+
+.header-main a{
+    font-size: 12px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.67);
+}
+
+nav{
+    margin-top: 20px;
+    width:100%;    
+}
+
+.admin-list{
+    width:100%;
+    float:right;
+    list-style: none;
+    
+}
+
+.admin-list li{
+    display:inline-block;
+    margin-left:2%;
+    margin-right: 10%;
+    float: right;
+    
+}
+
+.admin-list li a:link,.admin-list li a:visited{
+    padding:1px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.admin-list li a:hover,.admin-list li a:active{
+    border-bottom: 1px solid rgba(0,0,0,0.67);
+}
+
+
+/*--------------------SIDE-BAR-------------------*/
+.section-imp{
+    width:100%;
+    height:90vh;
+}
+
+.side-bar{
+    width:30%;
+    height:90vh;
+    background-color: red;
+    float:left;
+}
+
+.main-bar{
+    width:70%;
+    height:90vh;
+    background-color: yellow;
+    float:right;
+}
+
+/*--------------------FOOTER--------------------*/
+footer{
+    width:100%;            
+    padding:30px;
+    background-color: blanchedalmond;
+    text-align: center;
+    
+}
