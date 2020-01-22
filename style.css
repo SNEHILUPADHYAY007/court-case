@@ -147,7 +147,7 @@ label{
 
 
 
-.header-main a{
+.header-main span{
     font-size: 12px;
     text-decoration: none;
     color:rgba(0, 0, 0, 0.67);
@@ -173,7 +173,7 @@ nav{
     
 }
 
-.admin-list li a:link,.admin-list li a:visited{
+.admin-list li span:link,.admin-list li span:visited{
     padding:1px 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -181,7 +181,7 @@ nav{
     transition: border-bottom 0.2s;
 }
 
-.admin-list li a:hover,.admin-list li a:active{
+.admin-list li span:hover,.admin-list li span:active{
     border-bottom: 1px solid rgba(0,0,0,0.67);
 }
 
@@ -206,7 +206,59 @@ nav{
     float:right;
 }
 
+/*----------------dropdown--------------------*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:-290px;
+  
+  background-color: #f9f9f9;
+  width: 700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+}
+
+.dropdown-content p{
+    font-size:10px;
+    float:left;
+}
+
+.dropdown-content a{
+    font-size: 8px;
+    display:block;
+    margin-bottom: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table{width:100%;}
+
+th{
+    font-size:15px;
+    margin-right: 150px;
+    padding:10px;
+    
+}
+
+td{
+    padding:10px;
+}
+
+.login{
+    display: block;
+}
+
 /*--------------------FOOTER--------------------*/
+
 footer{
     width:100%;            
     padding:30px;
@@ -214,3 +266,6 @@ footer{
     text-align: center;
     
 }
+
+
+
