@@ -27,7 +27,7 @@ html{
     margin:0 auto;
 }
 
-/*-------------------BACKGROUND-IMAGE-------------------*/
+/*-------------------BACKGROUND-IMAGE + IMAGES + LOGO-------------------*/
 
 .background{
     width:100%;
@@ -45,6 +45,12 @@ html{
     background-size: cover;
     background-position: center ;
 
+}
+
+.logo-main{
+    width:100px;
+    float:left;
+    
 }
 
 
@@ -207,6 +213,20 @@ nav{
     padding:45px;
 }
 
+.list-order li button{
+    padding:4px 4px;
+    border:none;
+    background-color: white;
+    color:#000;
+    font-size:100%;     
+    text-transform: uppercase;
+}
+
+.list-order li button:hover,.list-order li button:active{
+    color:crimson;
+}
+
+
 .list-order{
     text-align: center;
     
@@ -217,10 +237,18 @@ nav{
     padding: 10px;
 }
 
+.list-order li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.list-order li a:hover,.list-order li a:active{
+    color:brown;
+}
+
 .main-bar{
     width:70%;
     height:90vh;
-    background-color: yellow;
     float:right;
 }
 
