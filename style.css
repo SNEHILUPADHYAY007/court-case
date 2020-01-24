@@ -195,8 +195,26 @@ nav{
 .side-bar{
     width:30%;
     height:90vh;
-    background-color: red;
     float:left;
+}
+
+.side-bar-1,.side-bar-2{
+    height:45vh;
+    width:100%;
+}
+
+.side-bar-1{
+    padding:45px;
+}
+
+.list-order{
+    text-align: center;
+    
+}
+
+.list-order li{
+    font-size:70%;
+    padding: 10px;
 }
 
 .main-bar{
@@ -215,15 +233,18 @@ nav{
 .dropdown-content {
   display: none;
   position: absolute;
-  left:-290px;
-  
+  left:-400px;
+
+  text-transform: uppercase;
+  height: 280px;
   background-color: #f9f9f9;
-  width: 700px;
+  width: 800px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  padding: 0;
   z-index: 1;
   
 }
+
 
 .dropdown-content p{
     font-size:10px;
@@ -231,14 +252,18 @@ nav{
 }
 
 .dropdown-content a{
-    font-size: 8px;
+    font-size: 45%;
     display:block;
+    color:#000;
     margin-bottom: 5px;
+    
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
 
 table{width:100%;}
 
@@ -255,7 +280,27 @@ td{
 
 .login{
     display: block;
+    padding:0;
+    margin-left:20px;
+    
 }
+
+#login-1{
+    letter-spacing: 3px;     
+    width:150px;
+    height:120px;
+    margin-left: 300px;
+    padding:5px;
+    text-align: center;
+}
+
+#login-1 a{
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.62);
+    
+}
+
+
 
 /*--------------------FOOTER--------------------*/
 

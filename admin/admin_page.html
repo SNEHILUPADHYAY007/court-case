@@ -1,118 +1,191 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Admin-Page</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../grid.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Admin-Page</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../grid.css">
+        <link rel="stylesheet" href="style-admin.css">
+        
 
-</head>
+    </head>
 
-<body>
-    <section class="admin-form">
-        <div class="header-main">
-            <div class="row">
-                <h2>HIGH COURT</h2>
-            </div>
-            <nav>
-                <ul class="admin-list">
-                    <li>
-                        <div class="dropdown">
-                            <span>LOGIN</span>
-                            <div class="dropdown-content">
-                                <table class="login">
-                                    <tr>
-                                        <th><a href="#">Client</a></th>
-                                        <th><a href="#">Lawyer</a></th>
-                                        <th><a href="#">Admin</a></th>
-                                    </tr>
-                                </table>
-                                
-                                
-                                
-                                
+    <body>
+        <section class="admin-form">
+            <div class="header-main">
+                <div class="row">
+                    <h2>HIGH COURT</h2>
+                </div>
+                <nav>
+                    <ul class="admin-list">
+                        <li>
+                            <div class="dropdown">
+                                <span>LOGIN</span>
+                                <div class="dropdown-content" id="login-1">
+                                    <table>
+                                        <tr>
+                                            <th><a href="#">Client</a></th>
+
+                                        </tr>
+                                        <tr>
+                                            <th><a href="#">Lawyer</a></th>
+                                        </tr>
+
+                                        <tr>
+                                            <th><a href="#">Admin</a></th>
+                                        </tr>
+                                    </table>
+
+
+
+
+                                </div>
                             </div>
-                        </div></a>
 
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <span>LEGAL ADVICE</span>
-                            <div class="dropdown-content">
-                                <table>
-                                    <tr>
-                                        <th>Answered Question</th>
-                                        <th>Guides/Answers</th>
-                                        <th>Other Resources</th>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Divorce Law Query</a></td>
-                                        <td><a href="#">Divorce Law Guides</a></td>
-                                        <td><a href="#">Indian Panel Code(IPC)</a></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td><a href="#">Property Law Query</a></td>
-                                        <td><a href="#">Criminal Law Guides</a></td>
-                                        <td><a href="#">Hindu Marriage Act(HMA)</a></td>
-                                    </tr>
-                                    
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <span>LEGAL ADVICE</span>
+                                <div class="dropdown-content">
+                                    <table>
+                                        <tr>
+                                            <th>Answered Question</th>
+                                            <th>Guides/Answers</th>
+                                            <th>Other Resources</th>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">Divorce Law Query</a></td>
+                                            <td><a href="#">Divorce Law Guides</a></td>
+                                            <td><a href="#">Indian Panel Code(IPC)</a></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">Property Law Query</a></td>
+                                            <td><a href="#">Criminal Law Guides</a></td>
+                                            <td><a href="#">Hindu Marriage Act(HMA)</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">labour/service query</a></td>
+                                            <td><a href="#">property law guides</a></td>
+                                            <td><a href="#">Cpc(code of civil procedure)</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">criminal law queries</a></td>
+                                            <td><a href="#">consumer court guides</a></td>
+                                            <td><a href="#">income tax act</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">consumer law queries</a></td>
+                                            <td><span></span></td>
+                                            <td><a href="#">constitution of india</a></td>
+
+                                        </tr>
 
 
 
-                                </table>
+                                    </table>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <span>FIND A LAWYER</span>
-                            <div class="dropdown-content">
-                                <table>
-                                    <tr>
-                                        <th>Personal/Family</th>
-                                        <th>Corporate Law</th>
-                                        <th>Criminal/Property</th>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">Divorce</a></td>
-                                        <td><a href="#">Corporate</a></td>
-                                        <td><a href="#">Cyber Crime</a></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td><a href="#">Child Custody</a></td>
-                                        <td><a href="#">Startup</a></td>
-                                        <td><a href="#">Property</a></td>
-                                    </tr>
-                                    
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <span>FIND A LAWYER</span>
+                                <div class="dropdown-content">
+                                    <table>
+                                        <tr>
+                                            <th>Personal/Family</th>
+                                            <th>Corporate Law</th>
+                                            <th>Criminal/Property</th>
+                                            <th>Civil</th>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">Divorce</a></td>
+                                            <td><a href="#">Corporate</a></td>
+                                            <td><a href="#">Cyber Crime</a></td>
+                                            <td><a href="#">Documentation</a></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">Child Custody</a></td>
+                                            <td><a href="#">Startup</a></td>
+                                            <td><a href="#">Property</a></td>
+                                            <td><a href="#">Consumer court</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">Family Dispute</a></td>
+                                            <td><a href="#">Arbitration</a></td>
+                                            <td><a href="#">Land-Lord/Tenate</a></td>
+                                            <td><a href="#">Civil cases</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">Medical negligence</a></td>
+                                            <td><a href="#">TM./copyright</a></td>
+                                            <td><a href="#">Criminal</a></td>
+                                            <td><a href="#">check bounce</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">Motor accident</a></td>
+                                            <td><a href="#">banking/finance</a></td>
+                                            <td><span></span></td>
+                                            <td><a href="#">recovery</a></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="#">labour and services</a></td>
+                                            <td><a href="#">gst/taxes</a></td>
+                                            <td><span></span></td>
+                                            <td><span></span></td>
+
+                                        </tr>
 
 
 
-                                </table>
+
+                                    </table>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <section class="section-imp">
-            <div class="side-bar">
-
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="main-bar">
+            <section class="section-imp">
+                <div class="side-bar">
+                    <div class="side-bar-1">
+                        <ol class="list-order">
+                            <li><a href="#">judges</a></li>
+                            <li><a href="#">course list</a></li>
+                            <li><a href="#">display board</a></li>
+                            <li><a href="#">judgements</a></li>
+                            <li><a href="#">indian law report</a></li>
+                        </ol>
+                    </div>
+                    <div id="root">
+                        
+                    </div>
+                    
+                </div>
+                
+            </section>
 
-            </div>
+            <footer>
+                made for high court
+            </footer>
+
+
+
         </section>
+        
+        
+        <script src="script.js"></script>
+    </body>
 
-        <footer>
-            made for high court
-        </footer>
-
-
-
-    </section>
-</body>
-
-</html>
+    </html>
